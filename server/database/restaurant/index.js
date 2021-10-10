@@ -8,7 +8,7 @@ const RestauratSchema = new Mongoose.Schema({
     cusisine: [String],
     restaurantTiming: String,
     contactMumber: Number,
-    website: Number,
+    website:[String],
     popularDishes: [String],
     averageCost: Number,
     amenities: [String],
