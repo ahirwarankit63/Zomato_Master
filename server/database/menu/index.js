@@ -10,7 +10,6 @@ const MenuSchema = new mongoose.Schema({
                     ref: "Foods",
                 },
             ],
-
         },
     ],
 
